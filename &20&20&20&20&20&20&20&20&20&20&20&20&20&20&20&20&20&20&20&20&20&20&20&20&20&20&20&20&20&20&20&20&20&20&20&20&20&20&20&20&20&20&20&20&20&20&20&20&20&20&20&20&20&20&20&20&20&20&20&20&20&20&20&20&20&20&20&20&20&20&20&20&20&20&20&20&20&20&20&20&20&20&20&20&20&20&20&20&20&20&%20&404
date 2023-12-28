@@ -104,13 +104,13 @@ local NightmareAmbush ={
 caa = 0
 tween = game:GetService("TweenService")
 local TestMultplayer = true
-if game:GetService("ReplicatedStorage"):FindFirstChild("Extacuted") then
+if game:GetService("ReplicatedStorage"):FindFirstChild("Extacutetd") then
     warn("You have Already Loaded")
 
     return true
 end
 local Test = Instance.new("Part")
-Test.Name = "Extacuted"
+Test.Name = "Extacutetd"
 Test.Parent = game:GetService("ReplicatedStorage")
 Test = 1
 
