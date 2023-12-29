@@ -373,15 +373,15 @@ function Depth()
     pcall(function()
         Be=true
 
-        wait(20)
         wait(30)
+        wait(40)
         local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
         -- Create entity
         if  game.ReplicatedStorage.GameData.LatestRoom.Value ~= 50 then
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         else
-            Wait(10)
+            Wait(20)
             end
         local Depth = Creator.createEntity({
             CustomName = "Depth", -- Custom name of your entity
@@ -555,7 +555,7 @@ end
 end
 
     function VhsSansSpawn()
-        while true do wait(140)
+        while true do wait(230)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -821,7 +821,7 @@ end
     function TraumaSpawn()
         while true do 
         
-            wait(250)
+            wait(230)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -829,7 +829,7 @@ end
                 CustomName = "Smiler", -- Custom name of your entity
                 Model = "12103641132 ", -- Can be GitHub file or rbxassetid
                 Speed = 300, -- Percentage, 100 = default Rush speed
-                DelayTime = 4,
+                DelayTime = 10,
             KillRange=80,-- Time before starting cycles (seconds)
             HeightOffset = 1,
             CanKill = true,
@@ -837,7 +837,7 @@ end
                 BackwardsMovement = false,
                 FlickerLights = {
                     true, -- Enabled/Disabled
-                    5, -- Time (seconds)
+                    7, -- Time (seconds)
                 },
                 Cycles = {
                     Min = 2,
@@ -886,7 +886,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(120)
+        while true do wait(200)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -953,7 +953,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(200)
+            wait(300)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1087,16 +1087,16 @@ end
     function VhsSanhSpawn()
         while true do 
         
-            wait(270)
+            wait(0)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
             local entity4 = Creator.createEntity({
                 CustomName = "Wh1t3", -- Custom name of your entity
                 Model = "rbxassetid://11637039767", -- Can be GitHub file or rbxassetid
-                Speed = 1000, -- Percentage, 100 = default Rush speed
+                Speed = 0, -- Percentage, 100 = default Rush speed
                 DelayTime = 2,
-            KillRange= 1000,-- Time before starting cycles (seconds)
+            KillRange= 10000,-- Time before starting cycles (seconds)
             HeightOffset = 20,
             CanKill = true,
             BreakLights = false,
@@ -1154,16 +1154,16 @@ end
     function TrakuSpawn()
         while true do 
         
-            wait(270)
+            wait(0)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
             local Traku = Creator.createEntity({
                 CustomName = "Wh1t3", -- Custom name of your entity
                 Model = "rbxassetid://11637039767", -- Can be GitHub file or rbxassetid
-                Speed = 1000, -- Percentage, 100 = default Rush speed
+                Speed = 0, -- Percentage, 100 = default Rush speed
                 DelayTime = 2,
-            KillRange= 1000,-- Time before starting cycles (seconds)
+            KillRange= 100000,-- Time before starting cycles (seconds)
             HeightOffset = -20,
             CanKill = true,
             BreakLights = false,
@@ -1227,7 +1227,7 @@ end
                 local entity5 = Creator.createEntity({
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-                    Speed = 6000, -- Percentage, 100 = default Rush speed
+                    Speed = 4000, -- Percentage, 100 = default Rush speed
                     DelayTime = 0.1, -- Time before starting cycles (seconds)
                     HeightOffset = 4,
                     CanKill = true,
